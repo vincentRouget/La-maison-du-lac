@@ -110,46 +110,37 @@ const TwinRoom = () => {
                                     <h4>Dans votre salle de bain privative :</h4>
                                 </div>
                                 <div className='li'>
-                                    <li>Toilettes gratuits</li>
+                                    <li>Articles de toilettes gratuits</li>
                                     <li>Toilettes</li>
-                                    <li>Baignoire ou douche</li>
-                                    <li>Les serviettes</li>
-                                    <li>Papier toilette</li>
+                                    <li>Douche</li>
+                                    <li>Serviettes</li>
                                 </div>
                             </div>
                             <div className='Room_container_carte_description_left_facilities'>
                                 <div className='h4'>
-                                    <h4>Installations :</h4>
+                                    <h4>Dans votre chambre :</h4>
                                 </div>
                                 <div className='li'>
                                     <li>Linge de maison</li>
-                                    <li>Armoire ou penderie</li>
-                                    <li>Gel hydroalcoolique</li>
+                                    <li>Penderie</li>
                                     <li>Cache-prises sécurité enfant</li>
                                     <li>Jeux de société / casse-tête</li>
-                                    <li>Livres, DVD ou musique pour enfants</li>
-                                    <li>Entrée privée</li>
+                                    <li>Livres</li>
+                                    <li>Clé individuelle</li>
                                     <li>Chauffage</li>
                                     <li>Machine à laver</li>
-                                    <li>Séchoir</li>
-                                    <li>Canapé</li>
-                                    <li>Cheminée</li>
-                                    <li>Salon</li>
-                                    <li>Salle à manger</li>
+                                    <li>Accès aux parties communes</li>
                                     <li>Salle à manger extérieure</li>
-                                    <li>Prise près du lit</li>
                                 </div>
                             </div>
                         </div>
                         <div className='Room_container_carte_description_right'>
-                            <h3>Cette chambre lits jumeaux dispose d'un coin repas, d'une cheminée et d'un canapé.</h3>
+                            <h3>Services avec suppléments :</h3>
                             <div className='Room_container_carte_description_right_price'>
-                                <p className='price'>Pour 2 personnes : 60€ / Nuit</p>
-                                <a href=
-                                    'https://www.booking.com/hotel/fr/la-maison-du-lac-flavignac.html'
-                                    target="_blank">
-                                    Réserver
-                                </a>
+                                <p className='price'>Repas du soir : 16€ / personne</p>
+                                <p className='price'>Lave-linge : 2€</p>
+                                <p className='price'>Sèche-linge : 3€</p>
+                                <p className='price'>Borne de recharge électrique : 0.30€ / kWh</p>
                             </div>
                         </div>
                     </div>

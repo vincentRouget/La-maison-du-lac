@@ -67,21 +67,21 @@ function App() {
   // });
 
   useEffect(() => {
-    if (!user) {
-      const token = localStorage.getItem("token");
-      if (token !== null) {
-        axios.get(`${import.meta.env.VITE_BACKEND_URL}/user-token`, { headers: { Authorization: token } })
-          .then((res) => {
-            setUser(res.data)
-          })
-          .catch((err) => {
-            console.error(err)
-            navigate("/")
-          });
-      } else {
-        navigate("/")
-      };
-    };
+    // if (!user) {
+    //   const token = localStorage.getItem("token");
+    //   if (token !== null) {
+    //     axios.get(`${import.meta.env.VITE_BACKEND_URL}/user-token`, { headers: { Authorization: token } })
+    //       .then((res) => {
+    //         setUser(res.data)
+    //       })
+    //       .catch((err) => {
+    //         console.error(err)
+    //         navigate("/")
+    //       });
+    //   } else {
+    //     navigate("/")
+    //   };
+    // };
     getImage();
   }, [user]);
 

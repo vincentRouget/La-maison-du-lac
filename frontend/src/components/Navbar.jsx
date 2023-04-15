@@ -17,6 +17,7 @@ const Navbar = () => {
             behavior: 'smooth'
         });
     };
+    
 
     useEffect(() => {
         if (user) {

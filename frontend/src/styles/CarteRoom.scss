@@ -3,9 +3,11 @@
 
             &_container {
                     display: flex;
-                    justify-content: center;
+                    justify-content: space-around;
                     flex-wrap: wrap;
                     gap: 50px;
+                    margin-left: 80px;
+                    margin-right: 80px;
 
                     &_formule {
                             background-color: var(--background-color);
@@ -53,14 +55,18 @@
                                     }
                             }
 
-
-
                             &_description {
+                                    display: flex;
+                                    align-items: center;
                                     width: 86%;
                                     max-height: 200px;
                                     text-align: center;
                                     overflow: hidden;
                                     height: 60%;
+
+                                    h3 {
+                                            line-height: 1.8;
+                                    }
                             }
 
                             &_image {

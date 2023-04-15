@@ -14,7 +14,7 @@ import Navbar from '../components/Navbar';
 import Banniere from '../components/Banniere';
 import Infos from '../components/Infos';
 import Window from '../components/Window';
-import CarteRoom from '../components/carteroom';
+import CarteRoom from '../components/CarteRoom';
 import Footer from '../components/Footer';
 import Commune6 from '../assets/Image/commune6.jpg';
 import Chambre21 from '../assets/Image/chambre2-1.jpg';
@@ -149,22 +149,16 @@ const Accueil = () => {
                 </div>
                 <div className='Accueil_container_resume'>
                     <p>
-                        Située à 29 km du parc des expositions de Limoges, La Maison du Lac propose des hébergements, un restaurant, un jardin, un salon commun et une terrasse.
+                        Située à 25 minutes de Limoges, La Maison du Lac propose quatre hébergements entièrement rénovés depuis 2022.
                     </p>
                     <p>
-                        Le Bed & Breakfast dispose d'une connexion Wi-Fi et d'un parking privé gratuits.
+                        Notre établissement dispose d'un parc d'un hectare avec accès direct au lac Saint Fortunat, d'un parking privé avec borne de recharge pour voiture électrique, et d'une connexion Wi-Fi gratuite.
                     </p>
                     <p>
-                        La salle de bains privative entièrement équipée est pourvue d'une douche et d'articles de toilette gratuits.
+                        La salle de bains privative entièrement équipée et pourvue d'une douche et d'articles de toilette gratuits.
                     </p>
                     <p>
-                        Le logement dispose d'une aire de jeux.
-                    </p>
-                    <p>
-                        Lors de votre séjour à La Maison du Lac, vous pourrez jouer au ping-pong sur place ou faire de la randonnée dans les environs.
-                    </p>
-                    <p>
-                        Un petit-déjeuner continental est servi chaque matin à La Maison du Lac.
+                        Un petit-déjeuner type continental est compris dans la nuitée.
                     </p>
                 </div>
                 <div className='Accueil_container_h1'>

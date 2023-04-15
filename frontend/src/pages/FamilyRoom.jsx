@@ -36,6 +36,7 @@ import Chambre15 from '../assets/Image/chambre1-5.jpg';
 import Chambre22 from '../assets/Image/chambre2-2.jpg';
 import Chambre23 from '../assets/Image/chambre2-3.jpg';
 import Suiteparentale10 from '../assets/Image/suite_parentale10.jpg';
+import Suiteparentale3 from '../assets/Image/suite_parentale3.jpg';
 // ***
 
 const FamilyRoom = () => {
@@ -46,9 +47,12 @@ const FamilyRoom = () => {
     // ***VERSION FRONTEND***
     const ImageFamilyRoom = [
         { name: Suiteparentale2 },
+        { name: Suiteparentale1 },
+        { name: Suiteparentale3 },
+        { name: Suiteparentale5 },
+        { name: Suiteparentale7 },
         { name: Suiteparentale9 },
         { name: Suiteparentale10 },
-        { name: Suiteparentale5 },
     ];
     // ***
 
@@ -69,7 +73,7 @@ const FamilyRoom = () => {
             <div className='Room_container'>
                 <div className='infos'>
                     <Infos
-                        number='3 à 4'
+                        number='2 à 4'
                         man={true}
                         parking={false}
                         air={true}
@@ -105,54 +109,38 @@ const FamilyRoom = () => {
                                     <h4>Dans votre salle de bain privative :</h4>
                                 </div>
                                 <div className='li'>
-                                    <li>Toilettes gratuits</li>
+                                    <li>Articles de toilettes gratuits</li>
                                     <li>Toilettes</li>
-                                    <li>Baignoire ou douche</li>
-                                    <li>Les serviettes</li>
+                                    <li>Douche</li>
+                                    <li>Serviettes</li>
                                     <li>Séche-cheveux</li>
-                                    <li>Papier toilette</li>
                                 </div>
                             </div>
                             <div className='Room_container_carte_description_left_facilities'>
                                 <div className='h4'>
-                                    <h4>Installations :</h4>
+                                    <h4>Dans votre chambre :</h4>
                                 </div>
                                 <div className='li'>
                                     <li>Linge de maison</li>
-                                    <li>Gel hydroalcoolique</li>
                                     <li>Cache-prises sécurité enfant</li>
                                     <li>Jeux de société / casse-tête</li>
-                                    <li>Livres, DVD ou musique pour enfants</li>
+                                    <li>Livres, TV à écran plat</li>
                                     <li>Climatisation</li>
-                                    <li>Entrée privée</li>
+                                    <li>Clé individuelle</li>
                                     <li>Chauffage</li>
                                     <li>Machine à laver</li>
-                                    <li>Séchoir</li>
-                                    <li>Canapé</li>
-                                    <li>Cheminée</li>
-                                    <li>Salon</li>
-                                    <li>Salle à manger</li>
+                                    <li>Accès aux parties communes</li>
                                     <li>Salle à manger extérieure</li>
-                                    <li>TV à écran plat</li>
-                                    <li>Prise près du lit</li>
                                 </div>
                             </div>
                         </div>
                         <div className='Room_container_carte_description_right'>
-                            <h3>Cette chambre familiale dispose d'un lave-linge, de la climatisation et d'un sèche-linge.</h3>
+                            <h3>Services avec suppléments :</h3>
                             <div className='Room_container_carte_description_right_price'>
-                                <p className='price'>Pour 3 personnes : 95€ / Nuit</p>
-                                <a href=
-                                    'https://www.booking.com/hotel/fr/la-maison-du-lac-flavignac.html'
-                                    target="_blank">
-                                    Réserver
-                                </a>
-                                <p className='price'>Pour 4 personnes : 100€ / Nuit</p>
-                                <a href=
-                                    'https://www.booking.com/hotel/fr/la-maison-du-lac-flavignac.html'
-                                    target="_blank">
-                                    Réserver
-                                </a>
+                                <p className='price'>Repas du soir : 16€ / personne</p>
+                                <p className='price'>Lave-linge : 2€</p>
+                                <p className='price'>Sèche-linge : 3€</p>
+                                <p className='price'>Borne de recharge électrique : 0.30€ / kWh</p>
                             </div>
                         </div>
                     </div>
