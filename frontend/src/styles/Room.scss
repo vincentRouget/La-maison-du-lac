@@ -13,14 +13,14 @@
     }
 
     h4 {
-        font-family: $font-family-2;
+        font-family: $font-family1;
         font-size: 30px;
         width: 100%;
         margin-bottom: 10px;
     }
 
     li {
-        font-family: $font-family-3;
+        font-family: $font-family3;
         font-size: 26px;
         font-weight: 600;
         margin-bottom: 20px;
@@ -48,11 +48,14 @@
             margin-bottom: 40px;
 
             h2 {
+                font-family: $font-family5;
                 color: var(--text-color);
-                font-size: 40px;
-                text-decoration: underline;
+                font-size: 50px;
                 font-style: oblique;
-                margin: 30px auto 30px auto;
+                letter-spacing: 1px;
+                padding-bottom: 10px;
+                margin: 40px auto 40px auto;
+                border-bottom: solid 2px rgb(42, 42, 42);
             }
 
 
@@ -85,6 +88,10 @@
                     align-items: center;
                     width: 100%;
 
+                    h3 {
+                        font-family: $font-family3;
+                    }
+
                     &_price {
                         display: flex;
                         flex-direction: column;
@@ -96,7 +103,7 @@
 
 
                         p {
-                            font-family: $font-family-3;
+                            font-family: $font-family3;
                             font-weight: bolder;
                             font-size: 36px;
                             color: #BEAD8E;
@@ -106,7 +113,7 @@
                         }
 
                         a {
-                            font-family: $font-family-3;
+                            font-family: $font-family3;
                             font-size: 40px;
                             font-weight: bolder;
                             margin-bottom: 140px;

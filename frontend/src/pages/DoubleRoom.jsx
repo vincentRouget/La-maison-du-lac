@@ -105,7 +105,7 @@ const DoubleRoom = () => {
                                     <h4>Dans votre salle de bain privative :</h4>
                                 </div>
                                 <div className='li'>
-                                    <li>Articles de toilettes gratuits</li>
+                                    <li>Articles de toilette gratuits</li>
                                     <li>Toilettes</li>
                                     <li>Douche</li>
                                     <li>Serviettes</li>

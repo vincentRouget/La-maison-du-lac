@@ -5,7 +5,6 @@ import UserContext from "../context/UserContext";
 import ImageDoubleRoom from '../assets/Image/chambre2-1-2.jpg';
 import ImageFamilyRoom from '../assets/Image/suite_parentale2.jpg';
 import ImageTwinRoom from '../assets/Image/twin1.jpg';
-import ImageDeluxeRoom from '../assets/Image/suite_parentale2.jpg';
 
 import Infos from './Infos';
 import Window from './Window';
