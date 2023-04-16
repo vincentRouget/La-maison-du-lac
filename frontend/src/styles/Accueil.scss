@@ -8,7 +8,7 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        width: 96%;
+        width: 100%;
         margin: auto;
 
         &_infos {
@@ -47,18 +47,18 @@
                 display: flex;
                 flex-direction: row;
                 flex-wrap: wrap;
-                justify-content: center;
+                justify-content: flex-end;
                 align-items: center;
                 width: 100%;
-                height: 100%;
-                margin-left: 10px;
-                gap: 50px;
+                padding: 20px;
+                gap: 40px;
 
                 &_image {
                     box-shadow: 8px 8px 10px 0 rgba(0, 0, 0, 0.5);
-                    max-width: 500px;
+                    max-width: 480px;
                     border-radius: 10px;
                     overflow: hidden;
+                    margin-bottom: 10px;
 
                     a {
                         display: flex;
@@ -86,7 +86,6 @@
                 h1 {
                     font-family: $font-family4;
                     color: var(--text-color);
-                    text-align: center;
                     font-size: 90px;
                     font-style: italic;
                     line-height: 1.2;
@@ -98,7 +97,7 @@
             width: 90%;
 
             p {
-                font-family: $font-family2;
+                font-family: $font-family6;
                 font-size: 40px;
                 line-height: 1.4;
             }

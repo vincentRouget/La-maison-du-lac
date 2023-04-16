@@ -162,7 +162,7 @@ const Accueil = () => {
                     </p>
                 </div>
                 <div className='Accueil_container_h1'>
-                    <h1>Interieur</h1>
+                    <h1>Intérieur</h1>
                     <div className='Accueil_container_h1_window'>
                         {/* ***VERSION BACKEND*** */}
                         {/* <Window name_component='slider1' /> */}
@@ -173,7 +173,7 @@ const Accueil = () => {
                     </div>
                 </div>
                 <div className='Accueil_container_h1'>
-                    <h1>Exterieur</h1>
+                    <h1>Extérieur</h1>
                     <div className='Accueil_container_h1_window'>
                         {/* ***VERSION BACKEND*** */}
                         {/* <Window name_component='slider2' /> */}
