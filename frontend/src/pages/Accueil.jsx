@@ -155,7 +155,7 @@ const Accueil = () => {
                         Notre établissement dispose d'un parc d'un hectare avec accès direct au lac Saint Fortunat, d'un parking privé avec borne de recharge pour voiture électrique, et d'une connexion Wi-Fi gratuite.
                     </p>
                     <p>
-                        Les salles de bains privative entièrement équipées sont pourvues d'une douche et d'articles de toilette gratuits.
+                        Nos salles de bains privatives entièrement équipées sont pourvues d'une douche à l'italienne et d'articles de toilette gratuits.
                     </p>
                     <p>
                         Un petit-déjeuner type continental est compris dans la nuitée.
