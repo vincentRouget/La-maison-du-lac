@@ -41,7 +41,7 @@
             align-items: center;
             width: 100%;
             margin-top: 220px;
-            margin-bottom: 100px;
+            margin-bottom: 160px;
 
             &_vignette {
                 display: flex;
@@ -58,7 +58,7 @@
                     max-width: 480px;
                     border-radius: 10px;
                     overflow: hidden;
-                    margin-bottom: 10px;
+                    margin-bottom: 40px;
 
                     a {
                         display: flex;
@@ -95,11 +95,12 @@
 
         &_resume {
             width: 90%;
+            margin-bottom: 200px;
 
             p {
                 font-family: $font-family6;
                 font-size: 40px;
-                line-height: 1.4;
+                line-height: 1.6;
             }
         }
 
@@ -107,15 +108,26 @@
             width: 100%;
             border-top: 1px solid var(--secondary-color-1);
             text-align: center;
-            padding: 10px 0px 10px 0px;
-            margin-top: 40px;
+            margin-bottom: 100px;
 
             h1 {
                 padding: 60px 0px 100px 0px;
+                margin: 60px auto 60px auto;
             }
 
             &_window {
                 margin-right: 20px;
+            }
+        }
+
+        &_h1F {
+            width: 100%;
+            border-top: 1px solid var(--secondary-color-1);
+            text-align: center;
+
+            h1 {
+                padding: 60px 0px 100px 0px;
+                margin: 60px auto 0px auto;
             }
         }
 

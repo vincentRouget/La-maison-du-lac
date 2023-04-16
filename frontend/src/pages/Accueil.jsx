@@ -155,7 +155,7 @@ const Accueil = () => {
                         Notre établissement dispose d'un parc d'un hectare avec accès direct au lac Saint Fortunat, d'un parking privé avec borne de recharge pour voiture électrique, et d'une connexion Wi-Fi gratuite.
                     </p>
                     <p>
-                        La salle de bains privative entièrement équipée et pourvue d'une douche et d'articles de toilette gratuits.
+                        Les salles de bains privative entièrement équipées sont pourvues d'une douche et d'articles de toilette gratuits.
                     </p>
                     <p>
                         Un petit-déjeuner type continental est compris dans la nuitée.
@@ -189,7 +189,7 @@ const Accueil = () => {
                         <Window name_component='slider3' />
                     </div>
                 </div> */}
-                <div className='Accueil_container_h1'>
+                <div className='Accueil_container_h1F'>
                     <h1>Nos Formules</h1>
                 </div>
                 <div className='Accueil_container_formules'>
