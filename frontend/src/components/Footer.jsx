@@ -3,7 +3,6 @@ import { Routes, Route, NavLink, Navigate, useNavigate } from 'react-router-dom'
 import axios from 'axios';
 import UserContext from "../context/UserContext";
 import ImageLogo from '../assets/Image/Logo.jpg';
-
 import Itineraire from '../assets/Icon/icons8-google-maps-old-48.png';
 import Map from '../assets/Icon/icons8-google-maps-48.png';
 import Booking from '../assets/Icon/icons8-booking-48.png';
